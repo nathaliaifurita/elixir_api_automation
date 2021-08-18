@@ -1,21 +1,29 @@
-# ApiAutomation
+## API AUTOMATION TEST IN ELIXIR - From Automação com Batista
+--------
 
-**TODO: Add description**
+Project using [Elixir](https://github.com/elixir-lang/ex_doc) languag, with lib [HTTPoison](https://github.com/edgurgel/httpoison)
 
-## Installation
+API used: [Automação com Batista](https://automacaocombatista.herokuapp.com/apibatista/sobre_api)
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_api_automation` to your list of dependencies in `mix.exs`:
+### Instalation/setup
 
-```elixir
-def deps do
-  [
-    {:elixir_api_automation, "~> 0.1.0"}
-  ]
-end
-```
+Pre-Req:
+- Vscode
+- Elixir 1.12.2 or superior
+- Erlang/OTP 24 [erts-12.0.3] 
+- Git
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_api_automation](https://hexdocs.pm/elixir_api_automation).
+1. Clone the project:
+```git clone git@github.com:nathaliaifurita/elixir-api-automation.git```
+
+2. Project Instalation:
+ ```mix deps.get```
+
+### Run the tests:
+
+To run all the tests:
+```mix test```
+
+Created by: [Nathalia Freire](https://github.com/nathaliaifurita)
+
 
